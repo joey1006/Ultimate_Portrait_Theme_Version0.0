@@ -1,3 +1,4 @@
+
 <?php  get_header(); ?>
 
     <?php
@@ -15,7 +16,7 @@
 
             <hr>
 
-            <?php endwhile;
+        <?php endwhile;
 
     endif;
 

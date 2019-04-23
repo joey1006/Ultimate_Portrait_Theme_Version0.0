@@ -1,21 +1,36 @@
-
 <?php get_header(); ?>
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            <p><a href="http://localhost:8888/wordpress/"><= Terug</a></p>
+            <h1><?php the_field('portrait_title'); ?></h1>
+            <p><?php the_field('portrait_description'); ?></p>
+        </div>
+    </div>
+    <?php
 
-    <?php 
-    if( have_posts() ):
-    
-        while( have_posts() ): the_post(); ?>
+    $images = get_field('portrait_gallery');
+    $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
 
-            <h3> <?php the_title(); ?> </h3>
-            <small>Posted on: <?php the_time('F j, Y') ?> ,in <?php the_category(); ?></small>
-            <p><?php the_content(); ?> </p>
-            
-            <hr>
+    if( $images ): ?>
+    <div class="row">
+        <div class="col-5">
+            <p>Thumbnail:</p>
+            <img class="portrait-image" src="<?php the_field('portrait_image') ?>" alt="Nic">
+        </div>
+        <div class="col-5 portrait-gallery">
+            <p>Gallery:</p>
+            <ul>
+                <?php foreach( $images as $image ): ?>
+                    <li>
+                        <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </div>
 
-        <?php endwhile;
-
-    endif;
-    
-    ?>
-
-<?php get_footer(); ?> 
+</div>
+<?php endif; ?>
+</div>
+<?php get_footer(); ?>
