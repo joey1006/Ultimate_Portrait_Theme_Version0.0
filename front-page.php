@@ -3,7 +3,7 @@
 
 <div class="container-fluid">
     <div class="row landing-header">
-        <div class="col-md-6 landing-text">
+        <div class="col landing-text">
 
             <div class="content">
                 <h2>Welcome to The Ultimate Portrait</h2>
@@ -12,7 +12,7 @@
                 <iframe class="video" width="80%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-md-6 landing-image">
+        <div class="col landing-image">
             <!--Empty-->
         </div>
     </div>
