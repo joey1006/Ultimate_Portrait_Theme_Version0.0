@@ -1,12 +1,51 @@
+//Mixins
+@mixin centered($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
 //Imports
-@import "components/about";
+@import "components/navigation";
 @import "components/front-page";
+@import "components/about";
 @import "components/portraits";
 @import "components/single-portait";
 
 //Global styles
-*, html, body {
+html, body {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white;
 }
 
-//Mixins
+.row {
+  margin-bottom: 80px;
+}
+
+.col {
+  padding: 0;
+}
+
+h2 {
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 8%;
+    border-bottom: 5px solid indianred;
+    margin: 0 5px 5px 0;
+  }
+}
+
+
+

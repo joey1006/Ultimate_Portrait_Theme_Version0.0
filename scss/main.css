@@ -1,3 +1,47 @@
+.navigation {
+  position: fixed;
+  background-color: white;
+  width: 50%;
+  z-index: 999; }
+  .navigation li {
+    display: inline-block;
+    list-style-type: none; }
+
+.landing-header {
+  height: 100vh; }
+  .landing-header .landing-text .content {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .landing-header .landing-text .content .video {
+      width: 100%; }
+  .landing-header .landing-image {
+    background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2019/04/UP-Nic.jpg");
+    background-size: cover; }
+
+.about {
+  position: relative; }
+  .about .about-image {
+    height: 300px;
+    overflow: hidden; }
+    .about .about-image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  .about .about-text .content {
+    margin: 0 50px 0 0; }
+    .about .about-text .content button {
+      background-color: indianred;
+      color: white;
+      font-size: 18px;
+      padding: 20px 0;
+      width: 100%;
+      border: none;
+      cursor: pointer; }
+
 .portrait-gallery ul {
   list-style-type: none; }
   .portrait-gallery ul li {
@@ -7,7 +51,23 @@
 .portrait-image {
   width: 50vh; }
 
-*, html, body {
-  font-family: sans-serif; }
+html, body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white; }
+
+.row {
+  margin-bottom: 80px; }
+
+.col {
+  padding: 0; }
+
+h2:before {
+  content: "";
+  display: inline-block;
+  width: 8%;
+  border-bottom: 5px solid indianred;
+  margin: 0 5px 5px 0; }
 
 /*# sourceMappingURL=main.css.map */

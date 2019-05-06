@@ -1,0 +1,42 @@
+.landing-header {
+  height: 100vh;
+  .landing-text {
+    .content {
+      width: 70%;
+      @include centered();
+      .video {
+        width: 100%;
+      }
+    }
+  }
+  .landing-image {
+    background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2019/04/UP-Nic.jpg");
+    background-size: cover;
+  }
+}
+
+.about {
+  position: relative;
+  .about-image {
+    height: 300px;
+    overflow: hidden;
+    img {
+      @include centered();
+    }
+  }
+  .about-text {
+    .content {
+      margin: 0 50px 0 0;
+      button {
+        background-color: indianred;
+        color: white;
+        font-size: 18px;
+        padding: 20px 0;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+
+      }
+    }
+  }
+}
