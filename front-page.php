@@ -18,7 +18,7 @@
     </div>
     <div class="row about">
         <div class="col about-image">
-            <img src="https://via.placeholder.com/300" alt="">
+            <img src="https://via.placeholder.com/450" alt="">
         </div>
         <div class="col about-text">
             <div class="content">
@@ -30,7 +30,12 @@
         </div>
     </div>
     <hr>
-</div>
+    <div class="row portraits">
+        <div class="col-sm-12"><h2>Portraits</h2></div>
+        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
+        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
+        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
+    </div>
 
 
 

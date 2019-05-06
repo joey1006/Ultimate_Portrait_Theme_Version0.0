@@ -2,9 +2,11 @@
   position: fixed;
   background-color: white;
   width: 50%;
+  height: 80px;
   z-index: 999;
   li {
     display: inline-block;
     list-style-type: none;
+
   }
 }

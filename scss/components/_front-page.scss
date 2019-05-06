@@ -10,7 +10,7 @@
     }
   }
   .landing-image {
-    background-image: url("https://via.placeholder.com/800/450");
+    background-image: url("https://via.placeholder.com/600");
     background-size: cover;
   }
 }
@@ -38,5 +38,11 @@
 
       }
     }
+  }
+}
+.portraits {
+  position: relative;
+  img {
+
   }
 }
