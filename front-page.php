@@ -18,7 +18,7 @@
     </div>
     <div class="row about">
         <div class="col about-image">
-            <img src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/bill.jpg" alt="">
+            <img src="https://via.placeholder.com/300" alt="">
         </div>
         <div class="col about-text">
             <div class="content">
