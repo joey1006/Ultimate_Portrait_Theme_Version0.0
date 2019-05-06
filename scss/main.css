@@ -1,0 +1,13 @@
+.portrait-gallery ul {
+  list-style-type: none; }
+  .portrait-gallery ul li {
+    display: inline-block;
+    float: left; }
+
+.portrait-image {
+  width: 50vh; }
+
+*, html, body {
+  font-family: sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

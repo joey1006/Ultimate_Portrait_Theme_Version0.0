@@ -1,0 +1,12 @@
+//Imports
+@import "components/about";
+@import "components/front-page";
+@import "components/portraits";
+@import "components/single-portait";
+
+//Global styles
+*, html, body {
+  font-family: sans-serif;
+}
+
+//Mixins

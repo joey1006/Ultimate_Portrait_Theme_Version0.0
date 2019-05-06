@@ -1,0 +1,16 @@
+
+//SINGLE PORTRAIT
+
+.portrait-gallery {
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+.portrait-image {
+  width: 50vh;
+}
