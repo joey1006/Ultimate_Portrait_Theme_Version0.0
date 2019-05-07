@@ -18,7 +18,7 @@
     .landing-header .landing-text .content .video {
       width: 100%; }
   .landing-header .landing-image {
-    background-image: url("http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/04/syndicate.jpg");
+    background-image: url("https://via.placeholder.com/800/450");
     background-size: cover; }
 
 .about {
@@ -50,6 +50,23 @@
 
 .portrait-image {
   width: 50vh; }
+
+footer {
+  background-color: #312f3d;
+  color: #FFF; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700; }
+
+h3::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  width: 100px;
+  height: 4px;
+  background-color: red;
+  top: 65px; }
 
 html, body {
   font-family: sans-serif;

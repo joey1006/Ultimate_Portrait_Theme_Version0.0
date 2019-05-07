@@ -18,7 +18,7 @@
     </div>
     <div class="row about">
         <div class="col about-image">
-            <img src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/04/syndicate.jpg" alt="">
+            <img src="https://via.placeholder.com/300" alt="">
         </div>
         <div class="col about-text">
             <div class="content">
