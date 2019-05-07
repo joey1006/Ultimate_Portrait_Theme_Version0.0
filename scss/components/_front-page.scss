@@ -3,7 +3,7 @@
   .landing-text {
     .content {
       width: 70%;
-      @include centered();
+      //@include centered();
       .video {
         width: 100%;
       }
@@ -18,10 +18,10 @@
 .about {
   position: relative;
   .about-image {
-    height: 300px;
+    height: 450px;
     overflow: hidden;
     img {
-      @include centered();
+      //@include centered();
     }
   }
   .about-text {
@@ -35,14 +35,13 @@
         width: 100%;
         border: none;
         cursor: pointer;
-
+        position: absolute;
+        bottom: 0;
+        left: 0;
       }
     }
   }
 }
 .portraits {
   position: relative;
-  img {
-
-  }
 }
