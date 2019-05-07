@@ -18,16 +18,16 @@
             <p>Thumbnail:</p>
             <img class="portrait-image" src="<?php the_field('portrait_image') ?>" alt="Nic">
         </div>
-        <div class="col-5 portrait-gallery">
-            <p>Gallery:</p>
-            <ul>
-                <?php foreach( $images as $image ): ?>
-                    <li>
-                        <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
+<!--        <div class="col-5 portrait-gallery">-->
+<!--            <p>Gallery:</p>-->
+<!--            <ul>-->
+<!--                --><?php //foreach( $images as $image ): ?>
+<!--                    <li>-->
+<!--                        --><?php //echo wp_get_attachment_image( $image['ID'], $size ); ?>
+<!--                    </li>-->
+<!--                --><?php //endforeach; ?>
+<!--            </ul>-->
+<!--        </div>-->
     </div>
 
 </div>
