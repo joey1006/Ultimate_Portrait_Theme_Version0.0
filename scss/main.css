@@ -74,7 +74,6 @@ h3::after {
   background-color: red;
   top: 65px; }
 
-<<<<<<< HEAD
 footer .portrait_title {
   color: #FFF;
   transition: 300ms; }
@@ -111,7 +110,6 @@ a:hover {
 .socialMedia img:hover {
   filter: grayscale(0); }
 
-=======
 @media screen and (max-width: 768px) {
   .offset {
     display: none; }
@@ -121,11 +119,10 @@ a:hover {
     .landing-text .content .video {
       display: none;
       width: 100%; } }
->>>>>>> 63bf7f1d7fdcac28ca2f199f7b2d55ad064d077f
 html, body {
   font-family: sans-serif;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
   background-color: #ffffff; }
 
 .container-fluid {

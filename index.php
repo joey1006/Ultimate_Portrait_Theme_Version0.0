@@ -23,7 +23,7 @@
             <ul>
                 <?php foreach( $images as $image ): ?>
                     <li>
-                        <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+                        <?php echo wp_get_attachment_image( $image["ID"], $size ); ?>
                     </li>
                 <?php endforeach; ?>
             </ul>

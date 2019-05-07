@@ -16,16 +16,6 @@
             <!--Empty-->
         </div>
     </div>
-<<<<<<< HEAD
-    
-    <div class="row portraits">
-        <div class="col-sm-12"><h2>Portraits</h2></div>
-        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
-        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
-        <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
-    </div>
-=======
-
     <hr>
     <div class="row portraits">
         <div class="col-sm-1"></div>
@@ -37,7 +27,7 @@
         <div class="col-md-1 offset"></div>
     </div>
     <hr>
->>>>>>> 63bf7f1d7fdcac28ca2f199f7b2d55ad064d077f
+
 
     <div class="row about">
         <div class="col-md-1 offset"></div>
@@ -52,16 +42,9 @@
                 <a href=""><button>contact</button></a>
             </div>
         </div>
-<<<<<<< HEAD
+
     </div>
     <hr>
-
-=======
         <div class="col-md-1 offset"></div>
     </div>
->>>>>>> 63bf7f1d7fdcac28ca2f199f7b2d55ad064d077f
-
-
-
-
 <?php get_footer(); ?>
