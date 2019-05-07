@@ -13,7 +13,6 @@
                 <?php while (have_posts()) : the_post(); ?>
                         <a href="<?php the_permalink(); ?>"><p><?php the_field('portrait_title'); ?></p></a>
               <?php endwhile; ?>
-                  <?php //wp_get_portraits(); ?>
               </div>
               <div class="col-md-3 footer">
                 <h3> Pages</h3>
