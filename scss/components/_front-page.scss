@@ -1,5 +1,6 @@
 .landing-header {
   height: 100vh;
+  margin-top: 0 !important;
   .landing-text {
     .content {
       width: 70%;
@@ -15,14 +16,17 @@
   }
 }
 
+.portraits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about {
   position: relative;
   .about-image {
     height: 450px;
     overflow: hidden;
-    img {
-      //@include centered();
-    }
   }
   .about-text {
     .content {
@@ -32,7 +36,7 @@
         color: white;
         font-size: 18px;
         padding: 20px 0;
-        width: 100%;
+        width: 90%;
         border: none;
         cursor: pointer;
         position: absolute;
@@ -41,7 +45,4 @@
       }
     }
   }
-}
-.portraits {
-  position: relative;
 }

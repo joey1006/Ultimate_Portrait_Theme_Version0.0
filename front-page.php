@@ -34,7 +34,7 @@
         <div class="col-md-5 about-image">
             <img src="https://via.placeholder.com/450" alt="">
         </div>
-        <div class="col-md-5 about-text">
+        <div class="col-md-4 about-text">
             <div class="content">
                 <h2>My name is Daniel Jeremy</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad deleniti exercitationem fugit harum itaque magnam officiis sapiente! Adipisci aliquid autem dolore itaque, nam optio praesentium tempore totam? A, et, laudantium.</p>
