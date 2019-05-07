@@ -3,7 +3,7 @@
 
 <div class="container-fluid">
     <div class="row landing-header">
-        <div class="col-md-1"></div>
+        <div class="col-md-1 offset"></div>
         <div class="col-sm-12 col-md-5 landing-text">
             <div class="content">
                 <h2>Welcome to The Ultimate Portrait</h2>
@@ -21,16 +21,16 @@
     <div class="row portraits">
         <div class="col-sm-1"></div>
         <div class="col-sm-11"><h2>Portraits</h2></div>
-        <div class="col-md-1"></div>
+        <div class="col-md-1 offset"></div>
             <div class="col-md-3"><img src="https://via.placeholder.com/300" alt=""></div>
             <div class="col-md-3"><img src="https://via.placeholder.com/300" alt=""></div>
             <div class="col-md-3"><img src="https://via.placeholder.com/300" alt=""></div>
-        <div class="col-md-1"></div>
+        <div class="col-md-1 offset"></div>
     </div>
     <hr>
 
     <div class="row about">
-        <div class="col-md-1"></div>
+        <div class="col-md-1 offset"></div>
         <div class="col-md-5 about-image">
             <img src="https://via.placeholder.com/450" alt="">
         </div>
@@ -42,7 +42,7 @@
                 <a href=""><button>contact</button></a>
             </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-1 offset"></div>
     </div>
 
 

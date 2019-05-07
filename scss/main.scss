@@ -6,6 +6,7 @@
 @import "components/portraits";
 @import "components/single-portait";
 @import "components/footer";
+@import "components/media-queries";
 
 
 //Colors
@@ -26,6 +27,10 @@ html, body {
 
 .col {
   padding: 0;
+}
+
+.offset {
+
 }
 
 h2 {
