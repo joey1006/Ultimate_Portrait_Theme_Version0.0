@@ -1,0 +1,30 @@
+//Media Queries
+
+//Extra small
+@media screen and (max-width: 768px) {
+  .offset {
+    display: none;
+  }
+  .landing-text {
+    .content {
+      width: 100%;
+      //@include centered();
+      .video {
+        display: none;
+        width: 100%;
+      }
+    }
+  }
+}
+//Small
+@media screen and (min-width: 768px) {
+
+}
+//Medium
+@media screen and (min-width: 992px) {
+
+}
+//Large
+@media screen and (min-width: 1200px) {
+
+}
