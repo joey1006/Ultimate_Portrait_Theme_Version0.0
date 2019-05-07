@@ -19,5 +19,5 @@
     <body>
 
     <div class="navigation">
-        <?php wp_nav_menu(array('theme_location'=>'primary'));  ?>
+        <?php //wp_nav_menu(array('theme_location'=>'primary'));  ?>
     </div>
