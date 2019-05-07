@@ -11,7 +11,7 @@
               <div class="col-md-3 footer">
                 <h3> Ultimate portrait</h3>
                 <?php while (have_posts()) : the_post(); ?>
-                        <a href="<?php the_permalink(); ?>"><p><?php the_field('portrait_title'); ?></p></a>
+                        <a href="<?php the_permalink(); ?>"><p class="portrait_title"><?php the_field('portrait_title'); ?></p></a>
               <?php endwhile; ?>
               </div>
               <div class="col-md-3 footer">
@@ -22,7 +22,20 @@
               </div>
               <div class="col-md-3 footer">
                 <h3> Contact</h3>
+                <p>Telefoon</p>
+                <p>Telefoon</p>
+                <p>Telefoon</p>
               </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9">
+                <p>kvk: BV15785KHGU448767 | All rights resevred by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p>
+              </div>
+                <div class="col-md-3 socialMedia">
+                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                </div>
             </div>
           </div>
         </div>

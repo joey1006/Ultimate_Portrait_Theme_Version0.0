@@ -18,6 +18,9 @@ html, body {
 .row {
   margin-bottom: 80px;
 }
+.row:last-of-type {
+  margin-bottom: 0px;
+}
 
 .col {
   padding: 0;
@@ -33,6 +36,3 @@ h2 {
     margin: 0 5px 5px 0;
   }
 }
-
-
-
