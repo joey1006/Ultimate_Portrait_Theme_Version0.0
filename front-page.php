@@ -44,7 +44,6 @@
         </div>
 
     </div>
-    <hr>
         <div class="col-md-1 offset"></div>
     </div>
 <?php get_footer(); ?>

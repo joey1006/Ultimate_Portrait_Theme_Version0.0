@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <p><a href='javascript:history.back(1);'><= Terug</a></p>
+            <p><a href='javascript:history.back(1);'><= Back to all portraits</a></p>
             <h1><?php the_field('portrait_title'); ?></h1>
             <p><?php the_field('portrait_description'); ?></p>
         </div>
