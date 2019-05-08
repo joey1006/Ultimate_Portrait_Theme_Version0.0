@@ -82,7 +82,8 @@ footer .portrait_title:hover {
   color: #F00; }
 
 footer a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #FFF; }
 
 ul {
   list-style-type: none;
