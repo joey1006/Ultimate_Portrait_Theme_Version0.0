@@ -9,7 +9,7 @@
                 <h2>Welcome to The Ultimate Portrait</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
-                <iframe class="video" width="80%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" width="100%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 landing-image">
@@ -53,7 +53,7 @@
 
     <div class="row process">
         <div class="col-md-6">
-            <div class="row">
+            <div class="row no-margin">
                 <div class="col-md-6">
                     <img src="https://via.placeholder.com/150" alt="">
                     <h4>A feeling</h4>

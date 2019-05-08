@@ -1,3 +1,9 @@
+//Colors
+$background-color: #ffffff;
+$highlight-color: indianred;
+$footer-color: #312f3d;
+$font-color: #000000;
+
 //Imports
 @import "components/mixins";
 @import "components/navigation";
@@ -9,23 +15,22 @@
 @import "components/media-queries";
 
 
-//Colors
-$background-color: #ffffff;
-$highlight-color: indianred;
-$font-color: #000000;
-
 //Global styles
 html, body {
   font-family: sans-serif;
   padding: 0;
   margin: 0!important;
-  background-color: $background-color;
+  background-image: $background-color;
 }
+
 .container-fluid {
   padding: 0;
 }
 .row {
   margin: 80px 0;
+}
+.no-margin {
+  margin-top: 25px;
 }
 .row:last-of-type {
   margin-bottom: 0px;
