@@ -2,7 +2,11 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
+<<<<<<< HEAD
             <p><a href='javascript:history.back(1);'><= Back</a></p>
+=======
+            <p><a href='javascript:history.back(1);'><= Back to all portraits</a></p>
+>>>>>>> 52d363e2e56b24b442c7c3765fa27bae1eb38a5c
             <h1><?php the_field('portrait_title'); ?></h1>
             <p><?php the_field('portrait_description'); ?></p>
         </div>
