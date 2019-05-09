@@ -15,7 +15,6 @@
               <h2>Het Proces</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
-              <iframe class="video" width="80%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="col-md-12 socialMedia">
                 <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
                 <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
@@ -29,26 +28,26 @@
 
     <div class="row ">
         <div class="col-md-3">
-          <img src="https://via.placeholder.com/300" alt="">
-            <p class="Conact_icons_Title">Lorem Ipsum</p>
+          <img class="Contact_Icons" src="https://via.placeholder.com/300" alt="">
+            <p class="Contact_icons_Title">Lorem Ipsum</p>
                 <p class="Contact_icons_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo</p>
       </div>
       <div class="col-md-3">
-        <img src="https://via.placeholder.com/300" alt="">
-          <p class="Conact_icons_Title">Lorem Ipsum</p>
+        <img class="Contact_Icons" src="https://via.placeholder.com/300" alt="">
+          <p class="Contact_icons_Title">Lorem Ipsum</p>
               <p class="Contact_icons_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo</p>
     </div>
     <div class="col-md-3">
-      <img src="https://via.placeholder.com/300" alt="">
-        <p class="Conact_icons_Title">Lorem Ipsum</p>
+      <img class="Contact_Icons" src="https://via.placeholder.com/300" alt="">
+        <p class="Contact_icons_Title">Lorem Ipsum</p>
             <p class="Contact_icons_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo</p>
   </div>
   <div class="col-md-3">
-    <img src="https://via.placeholder.com/300" alt="">
-      <p class="Conact_icons_Title">Lorem Ipsum</p>
+    <img class="Contact_Icons" src="https://via.placeholder.com/300" alt="">
+      <p class="Contact_icons_Title">Lorem Ipsum</p>
           <p class="Contact_icons_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo</p>
 </div>
