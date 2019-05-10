@@ -1,13 +1,47 @@
+// .navigation {
+//   position: fixed;
+//   margin: 30px;
+//   background-color: red;
+//   width: 40px;
+//   height: 30px;
+//   z-index: 999;
+//   li {
+//     display: inline-block;
+//     list-style-type: none;
+//   }
+// }
+
+//de navigatie staat helemaal links naast het scherm (left: -100vw),
+//als je op het HamburgerMenu drukt dan doormiddel van javascript
+//slide de hele nav page over de content
 .navigation {
-  position: fixed;
-  margin: 30px;
-  background-color: red;
-  width: 40px;
-  height: 30px;
-  z-index: 999;
-  li {
-    display: inline-block;
-    list-style-type: none;
-  }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // left: -100%; 
+  transition: 300ms;
+  background-color: #00F;
+  z-index: 99;
+  padding: 50px 0;
+
 }
 
+.navigation .row {
+  margin: unset;
+  height: 50vh;
+}
+
+.nav_image_portait {
+  width: 250px;
+  height: 250px;
+}
+
+
+.navigation .col-md-4:nth-of-type(2) {
+	text-align: center;
+    font-size: 3em;
+}
+.navigation .col-md-4 .menu ul li a {
+  color: #FFF;
+  margin: 20% 0;
+}
