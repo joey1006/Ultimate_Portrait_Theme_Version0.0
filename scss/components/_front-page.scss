@@ -2,6 +2,7 @@
   height: 100vh;
   margin-top: 0 !important;
   .landing-text {
+    margin-top: 150px;
     .content {
       width: 70%;
       //@include centered();
@@ -41,7 +42,7 @@
         cursor: pointer;
         position: absolute;
         bottom: 0;
-        left: 0;
+        // left: 0;
       }
     }
   }

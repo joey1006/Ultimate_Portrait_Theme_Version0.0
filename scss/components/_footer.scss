@@ -56,7 +56,7 @@ a:hover {
 .socialMedia img {
   width: 30px;
   margin: 0 15px;
-  filter: grayscale(100%);
+  filter: brightness(0) invert(1);
   transition: 300ms;
 }
 .socialMedia img:first-of-type {
@@ -64,5 +64,5 @@ a:hover {
 }
 
 .socialMedia img:hover {
-  filter: grayscale(0);
+  filter: brightness(100%) invert(0);
 }

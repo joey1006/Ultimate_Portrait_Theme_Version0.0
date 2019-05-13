@@ -14,12 +14,58 @@
         <link href="<?php echo get_bloginfo('template_directory'); ?>/scss/main.css" rel="stylesheet">
     </head>
 
-
-
     <body>
 
-    <div class="navigation">
+          <div class="navigation">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <?php
+                    query_posts(array(
+                        'post_type' => 'portrait',
+                        'showposts' => 1
+                    ) );
+
+                    ?>
+                    <?php while (have_posts()) : the_post(); ?>
+                          <h2 class="portrait_title">The latest Portrait</h2>
+                            <a href="<?php the_permalink(); ?>">
+                            <div class="nav_image_portait" style="background-image: url('<?php the_field('portrait_image')?>');"></div>
+                            <p><?php the_field('portrait_title'); ?></p>
+                          </a>
+                  <?php endwhile; ?>
+                  </div>
+                  <div class="col-md-4">
+                      <?php wp_nav_menu(); ?>
+                      <div class="socialMedia">
+                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                      </div>
+
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                      <div class="col-md-4"></div>
+                  <div class="col-md-4">
+                    <h3> Contact</h3>
+                    <p>Telefoon</p>
+                    <p>Telefoon</p>
+                    <p>Telefoon</p></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">  <p>kvk: BV15785KHGU448767 | All rights resevred by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p></div>
+                    <div class="col-md-2"></div>
+                </div>
+              </div>
+
+              <div class="HamburgerMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
         <?php //wp_nav_menu(array('theme_location'=>'primary'));  ?>
-        <hr>
-        <hr>
     </div>
