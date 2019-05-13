@@ -29,6 +29,25 @@
             <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
             <div class="col-md-4"><img src="https://via.placeholder.com/300" alt=""></div>
 <!--        <div class="col-md-1 offset"></div>-->
+
+<?php
+query_posts(array(
+    'post_type' => 'portrait',
+    'showposts' => 3
+) );
+?>
+<div class="container">
+    <div class="row portraits">
+        <?php while (have_posts()) : the_post(); ?>
+          <a href="<?php the_permalink(); ?>">
+            <div class="col-md-4" style="background-image: url('<?php the_field('portrait_image')?>');">
+                <p><?php the_field('portrait_title'); ?></p>
+              </a>
+            </div>
+        <?php endwhile; ?>
+    </div>
+</div>
+
     </div>
 
     <hr>

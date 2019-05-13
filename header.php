@@ -60,12 +60,13 @@
                     <div class="col-md-2"></div>
                 </div>
               </div>
-
-              <div class="HamburgerMenu">
-              <span></span>
-              <span></span>
-              <span></span>
             </div>
+            <div class="HamburgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
 
         <?php //wp_nav_menu(array('theme_location'=>'primary'));  ?>
     </div>
+
+    
