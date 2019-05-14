@@ -1,7 +1,15 @@
 
 //SINGLE PORTRAIT
 .portrait_desc {
-  button {
+
+}
+
+
+.portrait-image {
+  width: 50vh;
+}
+
+.button {
     background-color: indianred;
     color: white;
     font-size: 18px;
@@ -11,11 +19,4 @@
     cursor: pointer;
     position: absolute;
     bottom: 0;
-  }
 }
-
-
-.portrait-image {
-  width: 50vh;
-}
-
