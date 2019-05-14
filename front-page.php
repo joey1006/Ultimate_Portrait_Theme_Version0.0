@@ -76,24 +76,24 @@ query_posts(array(
                 <div class="col-md-6">
                     <img src="https://via.placeholder.com/150" alt="">
                     <h4>A feeling</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, doloribus enim eveniet expedita illo magni odio pariatur perspiciatis sapiente vel?</p>
+                    <p>We have a conversation to get a feeling of the person of which we’re going to create a portrait. This is a very important step.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="https://via.placeholder.com/150" alt="">
                     <h4>The start</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores atque corporis debitis delectus deserunt ea.</p>
+                    <p>You send me a picture memrobilia. This can be old trading cards, old pictures, old toys, etc.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img src="https://via.placeholder.com/150" alt="">
                     <h4>Creating</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur deleniti, natus nisi odio quo quod reiciendis sint? Beatae dolore?</p>
+                    <p>I make the portrait whilst sending the process so you can follow along with me.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="https://via.placeholder.com/150" alt="">
                     <h4>Done</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus eveniet incidunt itaque, molestias tempora voluptas? Commodi deserunt eos fugit .</p>
+                    <p>After we are done with this process. I’ll come bring your new portrait personally at a location inside Holland.</p>
                 </div>
             </div>
         </div>

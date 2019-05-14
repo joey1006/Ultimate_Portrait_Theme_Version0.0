@@ -2,7 +2,6 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  left: -100%;
   transition: 300ms;
   background-color: #292F3D;
   z-index: 99;
@@ -60,10 +59,12 @@
 .landing-header {
   height: 100vh;
   margin-top: 0 !important; }
-  .landing-header .landing-text .content {
-    width: 70%; }
-    .landing-header .landing-text .content .video {
-      width: 100%; }
+  .landing-header .landing-text {
+    margin-top: 150px; }
+    .landing-header .landing-text .content {
+      width: 70%; }
+      .landing-header .landing-text .content .video {
+        width: 100%; }
   .landing-header .landing-image {
     background-image: url("https://via.placeholder.com/600");
     background-size: cover; }
