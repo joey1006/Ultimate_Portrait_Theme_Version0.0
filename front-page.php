@@ -27,6 +27,7 @@
             'post_type' => 'portrait',
             'showposts' => 3
         ) );
+        
         ?>
           <?php while (have_posts()) : the_post(); ?>
             <a href="<?php the_permalink(); ?>">
@@ -40,7 +41,7 @@
             <div class="col-md-8"></div>
             <div class="col-md-4"><button>All Portraits</button></div>
           </div>
-    
+
 
     <hr>
 

@@ -21,11 +21,10 @@
                 <div class="row">
                   <div class="col-md-4">
                     <?php
-//                    $nav = query_posts(array(
-//                        'post_type' => 'portrait',
-//                        'showposts' => 1
-//                    ) );
-
+                   // $nav = query_posts(array(
+                   //     'post_type' => 'portrait',
+                   //     'showposts' => end($nav)
+                   // ) );
                     ?>
                     <?php while (have_posts()) : the_post(); ?>
                           <h2 class="portrait_title">The latest Portrait</h2>
@@ -42,12 +41,10 @@
                         <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
                         <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
                       </div>
+                  </div>
+                  <div class="col-md-4"></div>
 
-                  </div>
-                  <div class="col-md-4">
-                  </div>
-                </div>
-                <div class="row">
+
                     <div class="col-md-4"></div>
                       <div class="col-md-4"></div>
                   <div class="col-md-4">
