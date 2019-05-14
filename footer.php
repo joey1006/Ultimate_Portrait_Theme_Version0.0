@@ -22,9 +22,8 @@
               </div>
               <div class="col-md-3 footer">
                 <h3> Contact</h3>
-                <p>Telefoon</p>
-                <p>Telefoon</p>
-                <p>Telefoon</p>
+                <p>06 12 34 56 78</p>
+                <p>daniel.jeremy@email.com</p>
               </div>
             </div>
             <div class="row">

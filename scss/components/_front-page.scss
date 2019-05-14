@@ -28,6 +28,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 240px;
+	margin: 0 5px;
+	max-width: calc(33.33% - 10px);
 }
 
 .portraits .col-md-4 a p {

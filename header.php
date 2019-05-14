@@ -52,28 +52,18 @@
                       <div class="col-md-4"></div>
                   <div class="col-md-4">
                     <h3> Contact</h3>
-                    <p>Telefoon</p>
-                    <p>Telefoon</p>
-                    <p>Telefoon</p></div>
+                    <p>06 12 34 56 78</p>
+                    <p>daniel.jeremy@email.com</p>
+                  </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-8">  <p>kvk: BV15785KHGU448767 | All rights resevered by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p></div>
                     <div class="col-md-2"></div>
                 </div>
               </div>
-<<<<<<< HEAD
             </div>
-            <div class="HamburgerMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-=======
-
->>>>>>> 4d0409bbae88a862ee704b58af497e5c3d778b67
-
         <?php //wp_nav_menu(array('theme_location'=>'primary'));  ?>
-    </div>
-    <div class="HamburgerMenu">
-        <span>teksttekst</span>
-        <span>teksttekst</span>
-        <span>teksttekst</span>
+    <div class="hamburger hamburger--slider">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
     </div>
