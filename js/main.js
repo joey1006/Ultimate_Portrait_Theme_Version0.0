@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var toggle2 = false;
 var navigation = "navigation";
 document.getElementsByClassName("hamburger")[0].addEventListener("click", Animationleft);
@@ -16,3 +17,5 @@ var hamburger = document.querySelector(".hamburger");
                        hamburger.addEventListener("click", function() {
                          hamburger.classList.toggle("is-active");
                        });
+=======
+>>>>>>> e6c49facc694e767f4c2aa1c30b33d76bca4f9de

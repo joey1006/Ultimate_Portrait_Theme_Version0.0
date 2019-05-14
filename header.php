@@ -21,10 +21,10 @@
                 <div class="row">
                   <div class="col-md-4">
                     <?php
-                    query_posts(array(
-                        'post_type' => 'portrait',
-                        'showposts' => 1
-                    ) );
+//                    $nav = query_posts(array(
+//                        'post_type' => 'portrait',
+//                        'showposts' => 1
+//                    ) );
 
                     ?>
                     <?php while (have_posts()) : the_post(); ?>
