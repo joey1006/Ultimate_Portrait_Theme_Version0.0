@@ -19,12 +19,21 @@
   position: absolute;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   // left: -100%;
   transition: 300ms;
   background-color: #292F3D;
+=======
+  left: -100%; 
+  transition: 300ms;
+  background-color: rgb(0, 60, 255);
+>>>>>>> 4d0409bbae88a862ee704b58af497e5c3d778b67
   z-index: 99;
   padding: 50px 0;
   color: #fff;
+}
+.navigationOpen{
+  left: 0; 
 }
 
 .navigation .row {
@@ -83,4 +92,10 @@
 	transform: translate(-50%, -50%);
   transition: 300ms;
 
+}
+
+.HamburgerMenu{
+  z-index: 9999999;
+  position: absolute;
+  margin-top: 100px;
 }
