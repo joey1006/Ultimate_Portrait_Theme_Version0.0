@@ -27,8 +27,70 @@
   color: #FFF;
   margin: 20% 0; }
 
-.HamburgerMenu {
-  z-index: 9999999;
+.landing-header {
+  height: 100vh;
+  margin-top: 0 !important; }
+  .landing-header .landing-text {
+    margin-top: 150px; }
+    .landing-header .landing-text .content {
+      width: 70%; }
+      .landing-header .landing-text .content .video {
+        width: 100%; }
+  .landing-header .landing-image {
+    background-image: url("https://via.placeholder.com/600");
+    background-size: cover; }
+
+  .HamburgerMenu {
+    position: absolute;
+   z-index: 9999999;
+  }
+
+.portraits {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.about {
+  position: relative; }
+  .about .about-image {
+    height: 450px;
+    overflow: hidden; }
+  .about .about-text .content {
+    margin: 0 50px 0 0; }
+    .about .about-text .content button {
+      background-color: indianred;
+      color: white;
+      font-size: 18px;
+      padding: 20px 0;
+      width: 90%;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      bottom: 0; }
+
+.portrait-gallery ul {
+  list-style-type: none; }
+  .portrait-gallery ul li {
+    display: inline-block;
+    float: left; }
+
+.portrait-image {
+  width: 50vh; }
+
+footer {
+  background-color: #312f3d;
+  color: #FFF; }
+
+.row.footer {
+  padding: 2.5em 0;
+  margin-bottom: 0; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700; }
+
+h3::after {
+  content: "";
   position: absolute;
   margin-top: 100px; }
 
