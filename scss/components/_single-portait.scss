@@ -1,16 +1,21 @@
 
 //SINGLE PORTRAIT
-
-.portrait-gallery {
-  ul {
-    list-style-type: none;
-
-    li {
-      display: inline-block;
-      float: left;
-    }
+.portrait_desc {
+  button {
+    background-color: indianred;
+    color: white;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
   }
 }
+
+
 .portrait-image {
   width: 50vh;
 }
+
