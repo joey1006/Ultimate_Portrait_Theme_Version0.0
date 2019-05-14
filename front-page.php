@@ -38,7 +38,7 @@
         </div>
           <div class="row">
             <div class="col-md-8"></div>
-            <div class="col-md-4"><button>All Portraits</button></div>
+            <div class="col-md-4"><button class="button">All Portraits</button></div>
           </div>
     
 
