@@ -56,16 +56,16 @@
                     <p>Telefoon</p>
                     <p>Telefoon</p></div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">  <p>kvk: BV15785KHGU448767 | All rights resevred by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p></div>
+                    <div class="col-md-8">  <p>kvk: BV15785KHGU448767 | All rights resevered by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p></div>
                     <div class="col-md-2"></div>
                 </div>
               </div>
 
-              <div class="HamburgerMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
 
         <?php //wp_nav_menu(array('theme_location'=>'primary'));  ?>
+    </div>
+    <div class="HamburgerMenu">
+        <span>teksttekst</span>
+        <span>teksttekst</span>
+        <span>teksttekst</span>
     </div>
