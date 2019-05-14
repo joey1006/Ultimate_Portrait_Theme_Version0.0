@@ -1,313 +1,80 @@
-.navigation {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  transition: 300ms;
-  background-color: #28303D;
-  right: -100%;
-  transition: 300ms;
-  z-index: 99;
-  padding: 50px 0;
-  color: #fff; }
+/*
+Error: Invalid CSS after "...ansition: 300ms": expected "{", was ";"
+        on line 10 of components/_navigation.scss
+        from line 9 of main.scss
 
-.navigationOpen {
-  right: 0; }
+5: .navigation {
+6:   position: fixed;
+7:   width: 100%;
+8:   height: 100%;
+9: <<<<<<< HEAD
+10:   transition: 300ms;
+11:   background-color: #28303D;
+12:   right: -100%;
+13: =======
+14:   // left: -100%;
+15:   transition: 300ms;
 
-.navigation .row {
-  margin: unset; }
-
-.navigation .container .row .col-md-4:nth-child(-n+3) {
-  height: 50vh; }
-
-.navigation .container .row .col-md-4:nth-child(n+4):nth-child(-n+6) {
-  height: 20vh; }
-
-.navigation .container .row .col-md-4:nth-of-type(2) {
-  position: relative;
-  z-index: 1; }
-
-.navigation .container .row .col-md-4 a p {
-  font-size: 1.6em;
-  margin-top: 10px; }
-
-.nav_image_portait {
-  width: 250px;
-  height: 250px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.navigation a {
-  text-decoration: none;
-  color: #fff; }
-
-.navigation .col-md-4:nth-of-type(2) {
-  text-align: center;
-  font-size: 3em; }
-
-.navigation .col-md-4 .menu ul li {
-  margin: 25% 0; }
-
-.navigation .col-md-4 .menu ul li:first-of-type {
-  margin-top: 15px; }
-
-.hamburger {
-  position: fixed;
-  z-index: 9999999;
-  top: 10%;
-  left: 85%;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 0;
-  margin: 0;
-  overflow: visible;
-  width: 60px;
-  height: 60px; }
-
-.hamburger:hover {
-  opacity: 0.7; }
-
-.hamburger.is-active:hover {
-  opacity: 0.7; }
-
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner::before,
-.hamburger.is-active .hamburger-inner::after {
-  background-color: #000; }
-
-.hamburger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%; }
-
-.hamburger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px; }
-
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 40px;
-  height: 4px;
-  background-color: #000;
-  border-radius: 4px;
-  position: absolute;
-  transition-property: transform;
-  transition-duration: 0.15s;
-  transition-timing-function: ease; }
-
-.hamburger-inner::before, .hamburger-inner::after {
-  content: "";
-  display: block; }
-
-.hamburger-inner::before {
-  top: -10px; }
-
-.hamburger-inner::after {
-  bottom: -10px; }
-
-.hamburger--slider .hamburger-inner {
-  top: 2px; }
-
-.hamburger--slider .hamburger-inner::before {
-  top: 10px;
-  transition-property: transform, opacity;
-  transition-timing-function: ease;
-  transition-duration: 0.15s; }
-
-.hamburger--slider .hamburger-inner::after {
-  top: 20px; }
-
-.hamburger--slider.is-active .hamburger-inner {
-  transform: translate3d(0, 10px, 0) rotate(45deg); }
-
-.hamburger--slider.is-active .hamburger-inner::before {
-  transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
-  opacity: 0; }
-
-.hamburger--slider.is-active .hamburger-inner::after {
-  transform: translate3d(0, -20px, 0) rotate(-90deg); }
-
-.landing-header {
-  height: 100vh;
-  margin-top: 0 !important; }
-  .landing-header .landing-text {
-    margin-top: 150px; }
-    .landing-header .landing-text .content {
-      width: 70%; }
-      .landing-header .landing-text .content .video {
-        width: 100%; }
-  .landing-header .landing-image {
-    background-image: url("https://via.placeholder.com/600");
-    background-size: cover; }
-
-.portraits {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.portraits .col-md-4 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
-  margin: 0 5px;
-  max-width: calc(33.33% - 10px); }
-
-.portraits .col-md-4 a p {
-  position: absolute;
-  bottom: -50px;
-  left: 0; }
-
-.about {
-  position: relative; }
-  .about .about-image {
-    height: 450px;
-    overflow: hidden; }
-  .about .about-text .content {
-    margin: 0 50px 0 0; }
-    .about .about-text .content button {
-      background-color: indianred;
-      color: white;
-      font-size: 18px;
-      padding: 20px 0;
-      width: 90%;
-      border: none;
-      cursor: pointer;
-      position: absolute;
-      bottom: 0; }
-
-.portrait_desc button {
-  background-color: indianred;
-  color: white;
-  font-size: 18px;
-  padding: 20px 0;
-  width: 90%;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  bottom: 0; }
-
-.portrait-image {
-  width: 50vh; }
-
-footer {
-  background-color: #312f3d;
-  color: #FFF; }
-
-.row.footer {
-  padding: 2.5em 0;
-  margin-bottom: 0; }
-
-h3 {
-  font-size: 1.5em;
-  font-weight: 700; }
-
-h3::after {
-  content: "";
-  position: absolute;
-  left: 15px;
-  width: 100px;
-  height: 4px;
-  background-color: red;
-  top: 65px; }
-
-footer .portrait_title {
-  color: #FFF;
-  transition: 300ms; }
-
-footer .portrait_title:hover {
-  color: #F00; }
-
-footer a {
-  text-decoration: none;
-  color: #FFF; }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
-li a {
-  display: block;
-  margin: 15px 0;
-  text-decoration: none;
-  transition: 300ms; }
-
-a:hover {
-  color: #F00; }
-
-.socialMedia img {
-  width: 30px;
-  margin: 0 15px;
-  filter: brightness(0) invert(1);
-  transition: 300ms; }
-
-.socialMedia img:first-of-type {
-  margin-left: 0; }
-
-.socialMedia img:hover {
-  filter: brightness(100%) invert(0); }
-
-@media screen and (max-width: 768px) {
-  .offset {
-    display: none; }
-
-  .landing-text .content {
-    width: 100%; }
-    .landing-text .content .video {
-      display: none;
-      width: 100%; } }
-.Contact_Icons {
-  max-width: 75%;
-  margin: 0 auto;
-  transform: translateX(-50%);
-  position: relative;
-  left: 50%; }
-
-.Contact_icons_Title {
-  text-align: center;
-  font-size: 1.5em; }
-
-html, body {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0 !important;
-  background-image: #ffffff; }
-
-.container-fluid {
-  padding: 0; }
-
-.row {
-  margin: 80px 0; }
-
-.no-margin {
-  margin-top: 25px; }
-
-.row:last-of-type {
-  margin-bottom: 0px; }
-
-.col {
-  padding: 0; }
-
-h2 {
-  max-width: 500px; }
-  h2:before {
-    content: "";
-    display: inline-block;
-    width: 8%;
-    border-bottom: 5px solid indianred;
-    margin: 0 5px 5px 0; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+components/_navigation.scss:10
+main.scss:9
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ansition: 300ms\": expected \"{\", was \";\"\A         on line 10 of components/_navigation.scss\A         from line 9 of main.scss\A \A 5: .navigation {\A 6:   position: fixed;\A 7:   width: 100%;\A 8:   height: 100%;\A 9: <<<<<<< HEAD\A 10:   transition: 300ms;\A 11:   background-color: #28303D;\A 12:   right: -100%;\A 13: =======\A 14:   // left: -100%;\A 15:   transition: 300ms;"; }
