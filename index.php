@@ -3,7 +3,7 @@
     <div class="row">
 
         <div class="col-sm-12">
-            <p><a href='javascript:history.back(1);'><= Back</a></p>
+            <p><a href='javascript:history.back(1);'><= Back to all portraits</a></p> <!-- Placement href for development -->
         </div>
     </div>
     <div class="row">
@@ -15,7 +15,7 @@
 
 
         <div class="col-5">
-            <img class="portrait-image" src="<?php the_field('portrait_image') ?>" alt="Nic">
+            <img class="portrait-image" src="<?php the_field('portrait_image'); ?>" alt="Nic">
               <p><i>Portrait size: </i><?php the_field('portrait_size_width'); ?> x <?php the_field('portrait_size_height'); ?></p>
         </div>
     </div>
@@ -27,7 +27,7 @@
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3 offset-md-8">
-        <a href=""><button class="button">contact</button></a>
+        <a href=""><button class="button">All portraits</button></a>
         </div>
     </div>
 </div>
