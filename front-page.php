@@ -35,15 +35,12 @@
                 </a>
               </div>
           <?php endwhile; ?>
-        </div>
-          <div class="row">
+
             <div class="col-md-8"></div>
             <div class="col-md-4"><button class="button">All Portraits</button></div>
-          </div>
-    
 
+            </div>
     <hr>
-
     <div class="row about">
 <!--        <div class="col-md-1 offset"></div>-->
         <div class="col-md-6 about-image">
