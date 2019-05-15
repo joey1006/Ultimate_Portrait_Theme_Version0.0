@@ -1,5 +1,5 @@
 .landing-header {
-  height: 100vh;
+  //height: 100vh;
   margin-top: 0 !important;
   .landing-text {
     margin-top: 150px;
@@ -27,9 +27,13 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 240px;
+	height: 150px;
 	margin: 0 5px;
 	max-width: calc(33.33% - 10px);
+}
+
+.portraits .col-md-4:nth-of-type(-n+4) {
+	height: 280px;
 }
 
 .portraits .col-md-4 a p {

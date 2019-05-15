@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<h2> Contact Pagina!</h2>
-
 <div class="container ">
     <div class="row ">
         <div class="col-md-6">

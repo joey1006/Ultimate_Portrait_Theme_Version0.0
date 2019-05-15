@@ -21,19 +21,26 @@
                 <div class="row">
                   <div class="col-md-4">
                     <?php
-//                    $nav = query_posts(array(
+                    $featured = array(
+                        'post_type' => 'portrait',
+                        'showposts' => 1
+                    );
+                    $the_query = new WP_Query( $featured );
+//                    query_posts(array(
 //                        'post_type' => 'portrait',
 //                        'showposts' => 1
 //                    ) );
-
+                    if( $the_query->have_posts() ):
                     ?>
-                    <?php while (have_posts()) : the_post(); ?>
+                    <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                           <h2 class="portrait_title">The latest Portrait</h2>
                             <a href="<?php the_permalink(); ?>">
                             <div class="nav_image_portait" style="background-image: url('<?php the_field('portrait_image')?>');"></div>
                             <p><?php the_field('portrait_title'); ?></p>
                           </a>
-                  <?php endwhile; ?>
+                  <?php endwhile;
+                        endif;
+                    wp_reset_query();?>
                   </div>
                   <div class="col-md-4">
                       <?php wp_nav_menu(); ?>
@@ -55,8 +62,8 @@
                     <p>daniel.jeremy@email.com</p>
                   </div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">  <p>kvk: BV15785KHGU448767 | All rights resevered by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p></div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-10">  <p>kvk: 34334396 | Daniel Jeremy from Naad Artworks &copy; <?php echo date("Y"); ?>  All rights resevered</p></div>
+                    <!-- <div class="col-md-2"></div> -->
                 </div>
               </div>
             </div>

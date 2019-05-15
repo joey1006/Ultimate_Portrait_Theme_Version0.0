@@ -1,18 +1,30 @@
 <?php get_header(); ?>
 <?php
-query_posts(array(
+$portraits = array(
     'post_type' => 'portrait',
     'showposts' => 10
-) );
+);
+$the_portraits_query = new WP_Query( $portraits );
 ?>
-<div class="container">
-    <div class="row">
-        <?php while (have_posts()) : the_post(); ?>
-            <div class="col-4" style="background-image: url('<?php the_field('portrait_image')?>');">
-                <a href="<?php the_permalink(); ?>"><h2><?php the_field('portrait_title'); ?></h2></a>
-                <p><?php the_field('portrait_description'); ?></p>
+
+
+<div class="container ">
+    <div class="row ">
+        <div class="col-md-6">
+            <div class="content">
+                <h2>Portraits</h2>
             </div>
-        <?php endwhile; ?>
+        </div>
+      <div class="col-md-6"></div>
+    </div>
+    <div class="row all-portraits">
+        <?php while ($the_portraits_query->have_posts()) : $the_portraits_query->the_post(); ?>
+          <a href="<?php the_permalink(); ?>">
+            <div class="col-md-4" style="background-image: url('<?php the_field('portrait_image')?>');">
+                <p><?php the_field('portrait_title'); ?></p></a>
+            </div>
+        <?php endwhile;
+        wp_reset_query();?>
     </div>
 </div>
 <?php get_footer(); ?>

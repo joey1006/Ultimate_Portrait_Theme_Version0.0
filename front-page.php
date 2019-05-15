@@ -9,7 +9,7 @@
                 <h2>Welcome to The Ultimate Portrait</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae, consequatur dignissimos, dolorum error et eveniet exercitationem facilis iusto quam quia quisquam sapiente. Expedita fugiat nemo quos unde. Iure, officiis!</p>
-                <iframe class="video" width="100%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uD1z7eIN53A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 landing-image">

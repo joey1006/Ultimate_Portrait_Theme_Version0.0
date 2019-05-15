@@ -6,7 +6,6 @@
   transition: 300ms;
   background-color: #28303D;
   right: -100%;
-  transition: 300ms;
   z-index: 99;
   padding: 50px 0;
   color: #fff;
@@ -38,8 +37,8 @@
 }
 
 .nav_image_portait {
-	width: 250px;
-	height: 250px;
+	width: 350px;
+	height: 350px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;

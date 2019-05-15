@@ -1,0 +1,24 @@
+.all-portraits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-portraits .col-md-4 {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+	margin: 0 5px;
+	max-width: calc(33.33% - 10px);
+}
+
+.all-portraits .col-md-4:nth-of-type(-n+4) {
+	height: 280px;
+}
+
+.all-portraits .col-md-4 a p {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+}
