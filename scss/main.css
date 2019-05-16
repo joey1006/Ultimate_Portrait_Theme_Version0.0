@@ -199,12 +199,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
-  margin: 0 5px;
+  height: 280px;
+  margin: 25px 5px;
   max-width: calc(33.33% - 10px); }
-
-.all-portraits .col-md-4:nth-of-type(-n+4) {
-  height: 280px; }
 
 .all-portraits .col-md-4 a p {
   position: absolute;
@@ -224,6 +221,9 @@
   cursor: pointer;
   position: absolute;
   bottom: 0; }
+
+.col-md-6.portrait_desc .button {
+  position: unset; }
 
 footer {
   background-color: #312f3d;
@@ -319,7 +319,10 @@ a:hover {
     bottom: unset; }
 
   .wpcf7-form-control {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .all-portraits .col-md-4 {
+    max-width: unset; } }
 @media screen and (min-width: 768px) {
   .nav_image_portait {
     width: 200px;

@@ -52,6 +52,11 @@
 	max-width: 100%;
 }
 
+//* all portraits page *//
+.all-portraits .col-md-4 {
+	max-width: unset;
+}
+
 }
 //Small
 @media screen and (min-width: 768px) {
