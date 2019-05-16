@@ -10,7 +10,7 @@
         <div class="col-md-6 portrait_desc">
             <h2><?php the_field('portrait_title'); ?></h2>
             <p><?php the_field('portrait_description'); ?></p>
-            <a href=""><button class="button">contact</button></a>
+            <a href=""><button class=" contact">contact</button></a>
         </div>
 
 

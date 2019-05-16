@@ -31,7 +31,7 @@
           <?php while (have_posts()) : the_post(); ?>
             <a href="<?php the_permalink(); ?>">
               <div class="col-md-4" style="background-image: url('<?php the_field('portrait_image')?>');">
-                  <p><?php the_field('portrait_title'); ?></p>
+                  <p><?php //the_field('portrait_title'); ?></p>
                 </a>
               </div>
           <?php endwhile; ?>
@@ -47,7 +47,7 @@
     <div class="row about">
 <!--        <div class="col-md-1 offset"></div>-->
         <div class="col-md-6 about-image">
-            <img src="https://via.placeholder.com/450" alt="">
+            <img src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/daniel-jeremy-zelfportret.jpg" alt="" width="450px">
         </div>
         <div class="col-md-6 about-text">
             <div class="content">
@@ -93,7 +93,7 @@
             <h2>My process</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at est explicabo fugit laborum, magnam maiores non obcaecati, perferendis praesentium rem sequi temporibus ullam? Aliquid hic incidunt laudantium repellendus voluptates!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at est explicabo fugit laborum, magnam maiores non obcaecati, perferendis praesentium rem sequi temporibus ullam? Aliquid hic incidunt laudantium repellendus voluptates!</p>
-            <iframe class="video" width="100%" height="375px" src="https://www.youtube.com/embed/XHxyqcg7dKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" width="100%" height="375px" src="https://www.youtube.com/embed/uD1z7eIN53A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>

@@ -30,10 +30,10 @@
               <div class="col-md-9">
                 <p>kvk: BV15785KHGU448767 | All rights resevred by daniel jeremy naad art works &copy; <?php echo date("Y"); ?></p>
               </div>
-                <div class="col-md-3 socialMedia">
-                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
-                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
-                  <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                <div class="col-md-3">
+                    <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/facebook-icon.png"></a>
+                    <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/instagram-icon.png"></a>
+                    <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/linkedin-icon.png"></a>
                 </div>
             </div>
           </div>

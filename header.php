@@ -15,39 +15,34 @@
     </head>
 
     <body>
-
           <div class="navigation">
             <div class="container">
                 <div class="row">
                   <div class="col-md-4">
-                    <?php
-                    $featured = array(
-                        'post_type' => 'portrait',
-                        'showposts' => 1
-                    );
-                    $the_query = new WP_Query( $featured );
-//                    query_posts(array(
-//                        'post_type' => 'portrait',
-//                        'showposts' => 1
-//                    ) );
-                    if( $the_query->have_posts() ):
-                    ?>
+                        <?php $featured = array(
+                            'post_type' => 'portrait',
+                            'showposts' => 1
+                        );
+                        $the_query = new WP_Query( $featured );
+
+                        if( $the_query->have_posts() ): ?>
+
                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                          <h2 class="portrait_title">The latest Portrait</h2>
-                            <a href="<?php the_permalink(); ?>">
+                        <h2 class="portrait_title">The latest Portrait</h2>
+                        <a href="<?php the_permalink(); ?>">
                             <div class="nav_image_portait" style="background-image: url('<?php the_field('portrait_image')?>');"></div>
                             <p><?php the_field('portrait_title'); ?></p>
-                          </a>
-                  <?php endwhile;
-                        endif;
-                    wp_reset_query();?>
+                        </a>
+                      <?php endwhile; ?>
+                      <?php endif; ?>
+                      <?php wp_reset_query();?>
                   </div>
                   <div class="col-md-4">
                       <?php wp_nav_menu(); ?>
-                      <div class="socialMedia">
-                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
-                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
-                        <a href="#"><img class="sm_Logo" src="http://localhost/wordpress_ownthema/wordpress-5.1.1-nl_NL/wordpress/wp-content/uploads/2019/05/facebook-logo.png"></a>
+                      <div class="">
+                        <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/facebook-icon.png"></a>
+                        <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/instagram-icon.png"></a>
+                        <a href="#"><img width="30px" class="" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/linkedin-icon.png"></a>
                       </div>
 
                   </div>

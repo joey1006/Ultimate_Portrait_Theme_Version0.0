@@ -57,6 +57,7 @@
   color: inherit;
   text-transform: none;
   background-color: #fff;
+  box-shadow: 5px 5px 5px #000;
   border-radius: 50%;
   border: 0;
   margin: 0;
@@ -141,8 +142,17 @@
       .landing-header .landing-text .content .video {
         width: 100%; }
   .landing-header .landing-image {
-    background-image: url("https://via.placeholder.com/600");
-    background-size: cover; }
+    background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2019/04/UP-Nic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh;
+    margin-left: 50%; }
+  .landing-header .on-scroll {
+    margin-left: 0 !important;
+    width: 100%;
+    background-position: 0 -500px;
+    transition: 1s; }
 
 .portraits {
   display: flex;
@@ -183,7 +193,7 @@
 .portrait-image {
   width: 50vh; }
 
-.button {
+.contact {
   background-color: indianred;
   color: white;
   font-size: 18px;
@@ -192,6 +202,19 @@
   border: none;
   cursor: pointer;
   position: absolute;
+  bottom: 0; }
+
+.button {
+  background-color: indianred;
+  color: white;
+  font-size: 18px;
+  padding: 20px 0;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin-right: -55px;
   bottom: 0; }
 
 footer {
