@@ -6,14 +6,24 @@
     .content {
       width: 70%;
       //@include centered();
-      .video {
-        width: 100%;
-      }
     }
   }
+
   .landing-image {
     background-image: url("https://via.placeholder.com/600");
+    // background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2019/05/500.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh;
+    margin-left: 50%;
+  }
+  .on-scroll {
+    margin-left: 0 !important;
+    width: 100%;
+    background-position: 0 -500px;
+    transition: 1s;
+
   }
 }
 
@@ -62,3 +72,5 @@
     }
   }
 }
+
+

@@ -21,7 +21,11 @@ function awesome_theme_setup() {
 
 add_action('init', 'awesome_theme_setup');
 
-
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
 
 
 
