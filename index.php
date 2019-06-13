@@ -3,16 +3,16 @@
     <div class="row row-portraits">
 
       <div class="col-xs-12 col-md-6 order-md-2 mobile-down">
-<!--        <div class="portrait-images"> <img class="" src="--><?php //the_field('portrait_image'); ?><!--" alt="Nic"></div>-->
           <?php
-
           $images = get_field('portrait_gallery');
           $size = 'large'; // (thumbnail, medium, large, full or custom size)
 
           if( $images ): ?>
-              <div class="portrait-images single-portrait-slider">
+              <div class="portrait-images single-portrait-slider gallery fancybox-hide ">
                   <?php foreach( $images as $image ): ?>
-                      <img src="<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+                    <a class="ari-fancybox" href="<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>"
+                      <?php echo wp_get_attachment_image( $image['ID']); ?>
+                    </a>
                   <?php endforeach; ?>
               </div>
           <?php endif; ?>
@@ -29,7 +29,7 @@
                       </div>
                   <?php endforeach; ?>
               </div>
-                                                    <?php endif; ?>
+            <?php endif; ?>
       </div>
           <div class="col-xs-12 col-md-6 portrait_desc order-md-1">
         <h2><?php the_field('portrait_title'); ?></h2>

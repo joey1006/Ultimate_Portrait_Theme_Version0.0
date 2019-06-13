@@ -2,31 +2,31 @@
       <?php
       query_posts(array(
           'post_type' => 'portrait',
-          'showposts' => 4
+          'showposts' => 5
       ) );
       ?>
       <div class="section">
       <div class="container-fluid padding center-mobile">
           <div class="row footer no-margin">
-              <div class="col-sm-12 col-md-4 col-lg-4 footer">
+              <div class="col-sm-12 col-md-3 col-lg-3 footer">
                 <h3> Ultimate portraits</h3>
+
+<!--                              <a href="<?php echo get_page_link( get_page_by_title( 'portraits' )->ID ); ?>"> See all portraits </a>-->
+
                 <?php while (have_posts()) : the_post(); ?>
                         <a href="<?php the_permalink(); ?>"><p class="portrait_title"><?php the_field('portrait_title'); ?></p></a>
               <?php endwhile; ?>
-                  <p class="CTA_footer"> <a href="/portraits">See all portraits</a></p>
+
               </div>
-              <div class="col-sm-12 col-md-4 col-lg-4 footer">
+              <div class="col-sm-12 col-md-3 col-lg-3 footer-2">
                 <h3> Pages</h3>
                 <?php wp_nav_menu(); ?>
               </div>
-<!--
-              <div class="col-md-3 footer">
+              <div class="col-sm-12 col-md-3 col-lg-3">
               </div>
--->
-              <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-3 footer">
+              <div class="col-sm-12 col-md-3 col-lg-3">
                 <h3> Contact</h3>
-                <p class="color-footer"><a href="tel:+31614489594">+316 14 48 95 94</a></p>
-                <p class="color-footer"><a href="mailto:daan@naadartworks.com">daan@naadartworks.com</a></p>
+<a href="tel:+31614489594" class="con-footer">+316 14 48 95 94</a> <a href="mailto:daan@naadartworks.com" class="con-footer">daan@naadartworks.com</a>
               </div>
             </div>
             <div class="row footer-padding footer-margin-top">
@@ -37,7 +37,7 @@
                     <a href="https://www.linkedin.com/in/daniel-jeremy-9453394/" target="_blank"><i class="i-size fab fa-linkedin"></i></a>
                 </div>
                               <div class="col-sm-12 col-md-12 col-lg-9 order-md-1">
-                <p class="kvk">kvk: BV15785KHGU448767 | All Daniel Jeremy from Naad Artworks &copy; <?php echo date("Y"); ?> All rights reserved</p>
+                <p class="kvk-footer">kvk: 34334396 | All Daniel Jeremy from Naad Artworks &copy; <?php echo date("Y"); ?> All rights reserved</p>
               </div>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 var toggle2 = false;
 var navigation = "navigation";
 document.getElementsByClassName("hamburger")[0].addEventListener("click", Animationleft);
@@ -79,7 +78,7 @@ $('.multiple-portraits').slick({
     arrows: true,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 10000
+    autoplaySpeed: 3500
 });
 
 
@@ -101,3 +100,63 @@ $('.multiple-portraits-slider').slick({
 
 });
 
+function addClassByClick(button){
+  $(button).addClass("pop-active")
+}
+
+$(document).ready(function(){
+  $(".share").click(function(){
+    $(".overlay").addClass("overlay-target");
+  });
+});
+
+$(document).ready(function(){
+  $(".close2").click(function(){
+    $(".overlay").removeClass("overlay-target");
+  });
+});
+
+$(document).ready(function(){
+  $(".click_1").click(function(){
+    $(".lightbox_1").addClass("lightbox_1-target");
+  });
+});
+
+//$(document).ready(function(){
+//  $(".lightbox_1").click(function(){
+//    $(".lightbox_1").removeClass("lightbox_1-target");
+//  });
+//});
+
+$(document).ready(function(){
+  $(".click_1").click(function(){
+    $(".light").addClass("light-target");
+  });
+});
+
+$(document).ready(function(){
+  $(".light").click(function(){
+    $(".light").removeClass("light-target");
+  });
+});
+
+$(document).ready(function(){
+  $(".light").click(function(){
+    $(".lightbox_1").removeClass("lightbox_1-target");
+  });
+});
+
+
+//
+
+$(document).ready(function(){
+  $(".rood").click(function(){
+    $(".rood").toggleClass("rood-2");
+  });
+});
+
+//$(document).ready(function(){
+//  $(".rood").click(function(){
+//    $(".rood").removeClass("rood-2");
+//  });
+//});
